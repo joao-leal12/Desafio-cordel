@@ -1,0 +1,178 @@
+
+@font-face{
+
+    font-family: 'passion' ;
+   
+    src: url('arquivos-necessarios/fontes/nuevopassion.ttf') format('truetype'), url('arquivos-necessarios/fontes/nuevopassionacadital.ttf') format('truetype'), url('arquivos-necessarios/fontes/nuevopassionleft.ttf') format('truetype');
+
+
+
+}
+body, html{
+
+    min-height: 100vh;
+
+
+}
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+:root{
+
+    --font01:'passion';
+    --font02:Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+
+header{
+
+    background-color: black;
+    
+
+}
+header h1{
+
+    padding-top: 50px;
+    font-size: 8vw;
+    text-align: center;
+    font-weight: normal;
+
+}
+header h1, span{
+
+    color: white;
+
+
+}
+
+
+header span{
+
+    padding-bottom: 50px;
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+
+section#conteudo{
+
+    background-color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+
+    line-height: 2em;
+    font-size:3.5vw;
+
+
+}
+
+
+#conteudo p{
+
+    font-size: 1em;
+    padding-bottom: 2em;
+
+
+}
+
+
+
+.imagem{
+
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+}
+
+
+#exclusivo-um{
+
+    background-image: url('arquivos-necessarios/imagens/background001.jpg');
+    
+    position: relative;
+    height: 100vh;
+
+
+}
+
+#exclusivo-dois{
+
+    background-image: url('arquivos-necessarios/imagens/background002.jpg');
+    position: relative;
+    height: 100vh;
+
+
+
+}
+
+footer{
+
+    font-family: var(--font02);  
+    background-color: black;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+
+}
+
+
+.central{
+
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.411);
+    line-height: 2em;
+    height: 80%;
+    position: absolute;
+    top: 50%; 
+    left: 2%;
+    transform: translateY(-50%);
+    padding: 15px;
+
+}
+    
+
+.central p{
+
+    color: white;
+    font-size: 3.5vw;
+    line-height: 1.5em;
+    text-align: justify;
+
+}
+
+footer p{
+
+    color: white;
+    font-weight: lighter;
+}
+
+footer a{
+    
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.exc{
+
+   
+    padding: 7px;
+
+}
